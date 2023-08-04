@@ -13,7 +13,7 @@ html, body {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 5s linear;
+    animation: App-logo-spin infinite 500ms linear;
   }
 }
 
@@ -31,7 +31,14 @@ html, body {
 .App-footer{
   background-color: black;
   color: white;
-  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: calc(20px + 2vmin);
 }
 
 .App-link {

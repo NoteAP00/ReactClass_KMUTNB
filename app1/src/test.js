@@ -1,12 +1,12 @@
 import './App.css';
-
+import logo from './img/windmill.png';
 
 
 function main() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className='App-logo'> Lorem </div>
+      <img src={logo} className="App-logo" alt="logo" />
         <p>
            Hello World From React
         </p>
