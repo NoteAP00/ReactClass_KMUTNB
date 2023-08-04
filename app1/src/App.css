@@ -17,6 +17,7 @@ html, body {
   }
 }
 .App-nav{
+  z-index: 10;
   background-color: black;
   color: #ffffff;
   position: fixed;
@@ -27,6 +28,8 @@ html, body {
   color: white;
   text-align: center;
   font-size: calc(20px + 2vmin);
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
 }
 .App-header {
   background-color: #b3c7ee;
@@ -38,7 +41,17 @@ html, body {
   font-size: calc(10px + 2vmin);
   color: rgb(0, 0, 0);
 }
-
+.App-body{
+  border: 1px solid black;
+  background-color: #b3c7ee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
 .App-footer{
   background-color: black;
   color: white;
@@ -50,6 +63,7 @@ html, body {
   color: white;
   text-align: center;
   font-size: calc(20px + 2vmin);
+  padding-bottom: 0.5rem;
 }
 
 .App-link {
