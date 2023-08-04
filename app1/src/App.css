@@ -16,7 +16,18 @@ html, body {
     animation: App-logo-spin infinite 500ms linear;
   }
 }
-
+.App-nav{
+  background-color: black;
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgb(92, 90, 90);
+  color: white;
+  text-align: center;
+  font-size: calc(20px + 2vmin);
+}
 .App-header {
   background-color: #b3c7ee;
   min-height: 100vh;
