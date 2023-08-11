@@ -12,7 +12,23 @@ export default class Calendar extends Component {
         return `วัน${weekDay} ที่ ${day} ${month} พ.ศ.${year}`
     }
 
+    isLeapYear() {
+        const date = new Date()
+        const y = date.getFullYear()
+        if ((y % 400 === 0) || (y % 4 === 0 && y % 100 !== 0)) {
+            return true
+        } else {
+            return false
+        }
+    }
+
     render() {
-        return <div>{this.getDate()}</div>
+        return (
+        <div>
+            {this.getDate()}
+            <br />
+            {this.isLeapYear() ? 'ปีนี้เป็นปีอธิกสุรทิน' : 'ปีนี้ไม่ใช่ปีอธิกสุรทิน'}
+        </div>
+        )
     }
 }
