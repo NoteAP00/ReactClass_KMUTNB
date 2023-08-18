@@ -1,20 +1,22 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+// eslint-disable-next-line
 import { Header, Content, Footer } from './func-components'
+// eslint-disable-next-line
 import {Calendar , Button} from './class-components';
-import MsgBox from './class-props';
-import MsgBox2 from './func-props';
+// import MsgBox from './class-props';
+// import MsgBox2 from './func-props';
 import Banner from './banner';
 import { Calculator , Calculator2 } from './calculator';
-import { EventData1 } from './event-data';
+import { EventData1 , EventData2 } from './event-data';
 import { Table } from './table';
 function App() {
   return (
     <>
       <Header />
       <div class='App'>
-      <p><center><Calendar /></center></p>
+      {/* <p><center><Calendar /></center></p>
       <Content />
       <hr />
       <h5>MsgBox</h5>
@@ -33,25 +35,30 @@ function App() {
         fontSize='18pt'
         border='1px solid black'
       />
-      <hr />
+      <hr />*/} 
       <h5>Random Banner</h5>
       <Banner />
       <hr />
       <h5>Button (How to use 'this' in Class Component)</h5>
       <Button />
-      <hr />  
+      <hr /> 
       <h5>Calculator (class)</h5>
       <Calculator />
       <hr />
       <h5>Calculator2 (function)</h5>
       <Calculator2 />
       <hr />
-      <h5>Event Data Checker</h5>
+      <h5>Event Data1 Checker</h5>
       <EventData1 />
+      <hr />
+      
+      <h5>Event Data2 Checker</h5>
+      <EventData2 />
       <hr />
       <h5>Table</h5>
       <Table />
-      <hr />
+      <hr /> 
+      <br /><br /><br />
       </div>
       <Footer />
     </>
