@@ -1,12 +1,13 @@
-html, body {
+html , body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.App {
   height: 100%;
   margin: 0;
   padding: 0 1rem;
 }
 
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;

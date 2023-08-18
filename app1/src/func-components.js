@@ -8,7 +8,7 @@ export function Header() {
         textDecoration: 'none'
     }
     return (
-        <div style={{ backgroundColor: '#ccc' }}>
+        <div style={{ backgroundColor: '#ccc' , margin: 0 }}>
             <a href='/' style={aStyle}>Home</a> |&nbsp;
             <a href='/' style={aStyle}>React</a> |&nbsp;
             <a href='/' style={aStyle}>React Native</a>
@@ -27,7 +27,7 @@ export function Content() {
 
 export const Footer = () =>  {
     return (
-        <div style={{ textAlign: 'center' , background:'gray' }}>
+        <div style={{ textAlign: 'center' , background:'gray' ,margin: 0 ,marginTop: '3rem' }}>
             &copy; {new Date().getFullYear()} Apinun Umbao @KMUTNB:EnET-C All rights reserved
         </div>
     )

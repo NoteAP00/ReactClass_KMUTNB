@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Header />
+      <div class='App'>
       <p><center><Calendar /></center></p>
       <Content />
       <hr />
@@ -51,6 +52,7 @@ function App() {
       <h5>Table</h5>
       <Table />
       <hr />
+      </div>
       <Footer />
     </>
   );
