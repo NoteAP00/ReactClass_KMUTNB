@@ -73,6 +73,18 @@ html , body {
   color: #61dafb;
 }
 
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+}
+
+th{
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  background-color: #b3c7ee;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
