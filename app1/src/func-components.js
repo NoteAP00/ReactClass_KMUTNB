@@ -27,7 +27,7 @@ export function Content() {
 
 export const Footer = () =>  {
     return (
-        <div style={{ textAlign: 'center' }}>
+        <div style={{ textAlign: 'center' , background:'gray' }}>
             &copy; {new Date().getFullYear()} Apinun Umbao @KMUTNB:EnET-C All rights reserved
         </div>
     )
