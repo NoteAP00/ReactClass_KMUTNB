@@ -13,6 +13,8 @@ import { Header, Content, Footer } from './func-components'
 // import { Table } from './table';
 import RefsClass from './refs-class';
 import RefsFunc from './refs-func';
+import RefsArray from './refs-array';
+import Cart from './state-class';
 function App() {
   return (
     <>
@@ -67,6 +69,14 @@ function App() {
       <hr/>
       <h5>RefsFunc</h5>
       <RefsFunc />
+      <hr/>
+      <h5>RefsArray</h5>
+      <RefsArray/>
+      <hr/>
+      <h5>Cart</h5>
+      <Cart/>
+      <hr/>
+      
       </div>
       <Footer />
     </>
