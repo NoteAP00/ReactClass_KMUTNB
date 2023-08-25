@@ -15,6 +15,7 @@ import RefsClass from './refs-class';
 import RefsFunc from './refs-func';
 import RefsArray from './refs-array';
 import Cart from './state-class';
+import MessageBox from './state-func';
 function App() {
   return (
     <>
@@ -76,7 +77,10 @@ function App() {
       <h5>Cart</h5>
       <Cart/>
       <hr/>
-      
+      <h5>MessageBox</h5>
+      <MessageBox/>
+      <br/>
+
       </div>
       <Footer />
     </>

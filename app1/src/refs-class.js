@@ -11,6 +11,7 @@ export default class RefsClass extends React.Component {
         let op = ev.target.innerText
         let n1 = parseInt(this.num1.current.innerText)
         let n2 = parseInt(this.num2.current.innerText)
+        // eslint-disable-next-line
         let r = eval(`${n1} ${op} ${n2}`)
         this.result.current.innerText = r
         this.operator.current.innerText = op
