@@ -4,13 +4,15 @@ import React from 'react';
 // eslint-disable-next-line
 import { Header, Content, Footer } from './func-components'
 // eslint-disable-next-line
-import {Calendar , Button} from './class-components';
+// import {Calendar , Button} from './class-components';
 // import MsgBox from './class-props';
 // import MsgBox2 from './func-props';
-import Banner from './banner';
-import { Calculator , Calculator2 } from './calculator';
-import { EventData1 , EventData2 } from './event-data';
-import { Table } from './table';
+// import Banner from './banner';
+// import { Calculator , Calculator2 } from './calculator';
+// import { EventData1 , EventData2 } from './event-data';
+// import { Table } from './table';
+import RefsClass from './refs-class';
+import RefsFunc from './refs-func';
 function App() {
   return (
     <>
@@ -37,7 +39,7 @@ function App() {
         border='1px solid black'
       />
       <hr />*/} 
-      <h5>Random Banner</h5>
+      {/* <h5>Random Banner</h5>
       <Banner />
       <hr />
       <h5>Button (How to use 'this' in Class Component)</h5>
@@ -59,7 +61,12 @@ function App() {
       <h5>Table</h5>
       <Table />
       <hr /> 
-      <br /><br /><br />
+      <br /><br /><br /> */}
+      <h5>RefsClass</h5>
+      <RefsClass />
+      <hr/>
+      <h5>RefsFunc</h5>
+      <RefsFunc />
       </div>
       <Footer />
     </>

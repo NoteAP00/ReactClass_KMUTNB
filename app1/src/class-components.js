@@ -26,8 +26,8 @@ export class Calendar extends Component {
         return (
             <div>
                 {this.getDate()}
-                <br />
-                {this.isLeapYear() ? 'ปีนี้เป็นปีอธิกสุรทิน' : 'ปีนี้ไม่ใช่ปีอธิกสุรทิน'}
+                {/* <br />
+                {this.isLeapYear() ? 'ปีนี้เป็นปีอธิกสุรทิน' : 'ปีนี้ไม่ใช่ปีอธิกสุรทิน'} */}
             </div>
         )
     }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Calendar} from './class-components';
 export function Header() {
     const aStyle = {
         display: 'inline-block',
@@ -8,10 +8,13 @@ export function Header() {
         textDecoration: 'none'
     }
     return (
-        <div style={{ backgroundColor: '#ccc' , margin: 0 }}>
+        <div style={{ backgroundColor: '#ccc' , margin: 0 ,position:'fixed' , top:0 , width:'100%' }}>
             <a href='/' style={aStyle}>Home</a> |&nbsp;
             <a href='/' style={aStyle}>React</a> |&nbsp;
             <a href='/' style={aStyle}>React Native</a>
+            <div style={{textAlign:'end' , margin: '7px' ,position:'fixed' , top:0 , width:'98%' , color:'white'}}>
+                <Calendar />
+            </div>
         </div>
     )
 }
