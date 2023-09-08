@@ -13,10 +13,10 @@ export default class Header extends React.Component {
     };
     return (
     <div style={headerStyle}>
-        <a href="/">Home</a>&nbsp;-&nbsp;
-        <a href="/">Product</a>&nbsp;-&nbsp;
-        <a href="/">Contact Us</a>&nbsp;-&nbsp;&nbsp;
-        [{user}&nbsp;:&nbsp;<a>Signout</a>]
+        <a href="#top">Home</a>&nbsp;-&nbsp;
+        <a href="#top">Product</a>&nbsp;-&nbsp;
+        <a href="#top">Contact Us</a>&nbsp;-&nbsp;&nbsp;
+        [{user}&nbsp;:&nbsp;<a href="#top">Signout</a>]
         </div>
         
         )
