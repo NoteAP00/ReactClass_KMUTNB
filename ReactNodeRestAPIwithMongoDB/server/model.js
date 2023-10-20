@@ -17,5 +17,5 @@ let productSchema = new mongoose.Schema({
 productSchema.plugin(paginate)			//สำหรับแบ่งเพจ
 
 let Product = mongoose.model('Product', productSchema)
-
+console.log('Product model created')
 module.exports = Product
